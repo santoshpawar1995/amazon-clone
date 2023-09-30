@@ -1,0 +1,88 @@
+.container{
+  margin: 0;
+  
+}
+.headerLogo{
+    height: 60px;
+    background-color:#0f1111;
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.headerLogo img{
+     width: 100px;
+     margin-left: 11px;
+}
+.address{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: center;
+    
+}
+.addressBar{
+    color: white;
+    display: flex;
+      flex-direction: column;
+      padding-left: 10px;
+}
+.address_two{
+    font-weight: 700;
+    
+}
+.inputContainer{
+  align-items: center;
+  display: flex; 
+  flex-grow: 1;
+  overflow: hidden;
+background-color: aliceblue;
+  margin-left: 10px;
+ 
+  :focus-within{
+    box-shadow: 0 0 0 90px #f90;
+  }
+ 
+    
+}
+.input{
+    flex-grow: 1;
+    height: 40px;
+    border-radius: 2px;
+    border-color: #febd69;
+  
+   
+}
+.icon{
+
+  background-color: #f90; 
+  padding: 11px;
+   
+}
+.navContainer{
+   display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    
+}
+.nav1{
+   display: flex;
+    flex-direction: column;
+    padding: 10px 20px 10px 20px;
+}
+.nav2{
+    flex-direction: column;
+    display: flex;
+    padding: 10px 20px 10px 20px;
+}
+.navAc{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+.cart{
+color: #0f1111;
+ 
+ 
+}
+
